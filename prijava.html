@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematon</title>
+    <link rel="stylesheet" href="/login.css">
+    <script src="/jquery.js"></script>
+    <script src="/jquery.validate.js"></script>
+
+</head>
+<body>
+    <a href="/home.html" id="prijava_logo">Cinematon</a>
+
+    <div class="container">
+        <form id="forma" style=" padding: 0;  margin: 0;">
+            <label for="korisnicko"><b>Korisnicko ime</b></label>
+            <input id="korisnicko" type="text" placeholder="John Doe" name="korisnicko" required>
+            </br></br>
+            <label for="lozinka"><b>Lozinka</b></label>
+            <input id="lozinka" type="password" placeholder="Unesite lozinku" name="lozinka" required>
+
+            <span class="psw"><a href="#">Zaboravili ste lozinku?</a></span>
+            
+            <button class="prijava_btn" type="submit">Prijava</button>
+
+            <p>Jos nemate korisnicki nalog? <a href="#">REGISTRUJTE SE!</a></p>
+        </form>
+    </div>
+
+    <script src="/validation.js"></script>
+</body>
+</html>
